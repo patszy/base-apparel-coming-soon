@@ -22,7 +22,7 @@ html {
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,8 +51,8 @@ body {
 }
 
 .picture img {
-    object-fit: cover;
-    width: 40vw;
+    max-height: 100vh;
+    display: block;
 }
 
 .main {
